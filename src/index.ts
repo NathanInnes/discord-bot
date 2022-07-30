@@ -8,7 +8,7 @@ import { makeEmbed } from './lib/embed';
 import Logger from './lib/logger';
 import { connect } from './lib/db';
 
-dotenv.config(); s;
+dotenv.config();
 const apm = require('elastic-apm-node').start({
     serviceName: 'discord-bot',
     disableSend: true,
